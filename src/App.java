@@ -7,18 +7,18 @@ public class App {
         cat1.changeYourName("Grizabella");
 
 
-        
+
         cat1.tellYourAddress();
         cat1.tellYourName();
 
         
-        System.out.println("-----------------");
+       // System.out.println("-----------------");
         
-        Cat cat2 = new Cat();
-        System.out.println("Blick von aussen: " + cat2);
-        cat2.changeYourName("Alonzo");
-        cat2.tellYourAddress();
-        cat2.tellYourName();
+       // Cat cat2 = new Cat();
+       // System.out.println("Blick von aussen: " + cat2);
+      //  cat2.changeYourName("Alonzo");
+     //   cat2.tellYourAddress();
+      //  cat2.tellYourName();
 
     }
 }
