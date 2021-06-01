@@ -2,7 +2,7 @@ public class App {
     
     public static void main(String[] args) {
            
-        Cat cat1 = new Cat();
+        Cat cat1 = new Cat(null, null, 0);
         System.out.println("Blick von aussen: " + cat1);
         cat1.changeYourName("Grizabella");
 
