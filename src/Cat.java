@@ -3,7 +3,7 @@ import java.util.jar.Attributes.Name;
 public class Cat 
 {
     // Property | Attribut | Field
-    public String name = "nobody";
+    public String name;
     public String furColor;
     public int age;
 
