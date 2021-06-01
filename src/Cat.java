@@ -8,10 +8,13 @@ public class Cat
     public int age;
 
     public Cat(String name,String furcolor,int age){
-    this.name =name;
-    this.furColor = furcolor;
-    this.age = age;
-}
+  
+
+    public Cat(String name, String furColor, int age) {
+        this.name = name;
+        this.furColor = furColor;
+        this.age = age;
+    }
 
 
     public void tellYourAddress(){
