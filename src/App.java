@@ -5,6 +5,9 @@ public class App {
         Cat cat1 = new Cat();
         System.out.println("Blick von aussen: " + cat1);
         cat1.changeYourName("Grizabella");
+
+
+        
         cat1.tellYourAddress();
         cat1.tellYourName();
 
