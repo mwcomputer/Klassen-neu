@@ -1,3 +1,5 @@
+import java.util.jar.Attributes.Name;
+
 public class Cat 
 {
     // Property | Attribut | Field
@@ -5,7 +7,7 @@ public class Cat
     public String furColor;
     public int age;
 
-public Cat(){
+    public Cat(String name,String furcolor,int age){
 
 }
 
